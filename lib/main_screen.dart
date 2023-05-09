@@ -17,7 +17,9 @@ class _MainScreenState extends State<MainScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("hello".tr().toString()),
+            Text(
+              "hello".tr().toString(),
+            ),
             Text('text1'.tr().toString()),
             ElevatedButton(
               onPressed: () async {
