@@ -14,13 +14,15 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
               "hello".tr().toString(),
             ),
-            Text('text1'.tr().toString()),
+            Text(
+              'text1'.tr().toString(),
+            ),
             ElevatedButton(
               onPressed: () async {
                 context.setLocale(Locale('en', 'US'));
